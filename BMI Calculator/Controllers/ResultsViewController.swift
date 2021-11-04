@@ -23,7 +23,6 @@ class ResultsViewController: UIViewController {
         resultsArea.text = bmiValue
         adviceLabel.text = advice
         resultBackground.backgroundColor = color
-        
     }
     
     @IBAction func recalculatePressed(_ sender: Any) {

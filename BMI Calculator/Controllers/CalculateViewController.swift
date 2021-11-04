@@ -16,7 +16,7 @@ class CalculateViewController: UIViewController {
     var calculatorBrain = CalculatorBrain()
     
     @IBAction func heightChanged(_ sender: UISlider) {
-        heightOutput.text = String(format: "%.2f", sender.value) + "ft"
+        heightOutput.text = String(format: "%.1f", sender.value) + "ft"
     }
     
     @IBAction func weightChanged(_ sender: UISlider) {
